@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #E6E6FA 50%, #DCD0FF 50%);
+    margin-top: 20px;
+    height: calc(100vh - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.card-header {
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+#currentDate {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
